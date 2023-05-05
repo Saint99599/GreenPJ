@@ -21,5 +21,4 @@
             $connect->close();
         ?>  
     </body>
-
 </html>

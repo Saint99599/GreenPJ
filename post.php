@@ -47,7 +47,7 @@
                 <?php
                     echo "<tr>";
                     echo "<td>" . $rowPost['ID'] . "</td>";
-                    echo '<td>' . $rowUserS['FName'] . " " . $rowUserS['LName'] . '</td>';
+                    echo '<td>' . $rowPost['IDUser'] . '</td>';
                     echo "<td>" . $rowPost['Title'] . "</td>";
                     echo "<td>" . $rowPost['About'] . "</td>";
                     echo "</tr>";

@@ -8,7 +8,7 @@
         $username = mysqli_real_escape_string($connect, $_POST["username"]);
         $password = mysqli_real_escape_string($connect, $_POST["password"]);
 
-        $qLogin = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
+        $qLogin = "SELECT id FROM user WHERE username = '$username' AND password = '$password'";
         $resultLogin = $connect->query($qLogin);
         $rowLogin = mysqli_fetch_array($resultLogin);
 
